@@ -1,6 +1,6 @@
 # tomatillo-android
 
-A simple WebView of [tomatillo](https://github.com/lukasschwab/tomatillo), my tiny pomodoro timer: hang on, *littler* tomato!
+A simple WebView of [Tomatillo](https://github.com/lukasschwab/tomatillo), my tiny pomodoro timer: hang on, *littler* tomato!
 
 ## Todo
 
@@ -13,3 +13,8 @@ A simple WebView of [tomatillo](https://github.com/lukasschwab/tomatillo), my ti
 + Build a native version
 
 + Add an app icon
+
++ Webview offline
+
++ Handle screen rotation
+

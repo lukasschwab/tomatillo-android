@@ -102,11 +102,11 @@ public class FullscreenActivity extends AppCompatActivity {
             }
         });
 
-        WebView engine = (WebView) mContentView;
-        engine.getSettings().setJavaScriptEnabled(true);
-        engine.getSettings().setUserAgentString("Desktop");
-        engine.setWebViewClient(new WebViewClient());
-        engine.loadUrl("http://lukasschwab.me/tomatillo");
+        WebView mWebView = (WebView) mContentView;
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.getSettings().setUserAgentString("Desktop");
+        mWebView.setWebViewClient(new WebViewClient());
+        mWebView.loadUrl("file:///android_asset/tomatillo/index.html");
     }
 
     @Override

@@ -1,0 +1,21 @@
+<head>
+  <title>tomatillo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon-red.ico" type="image/x-icon" id="favicon">
+</head>
+<body>
+  <p id="modeTitle">work / break</p>
+  <div id="clockdiv">
+    <div>
+      <span class="minutes"></span> minutes <span class="seconds"></span></div>
+    </div>
+  </div>
+  <div id="workInput" class="input">
+    <input name="workMinutes" type="tel" maxlength="3" id="workMinutes" class="setting" placeholder="45"><br><a onclick="switchToWork();" href="#">work</a>
+  </div>
+  <div id="breakInput" class="input">
+    <input name="breakMinutes" type="tel" maxlength="3" id="breakMinutes" class="setting" placeholder="15"><br><a onclick="switchToBreak();" href="#">break</a>
+  </div>
+</body>
+<script src="defaults.js"></script>
+<script src="timer.js"></script>

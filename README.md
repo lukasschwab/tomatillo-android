@@ -4,17 +4,13 @@ A simple WebView of [Tomatillo](https://github.com/lukasschwab/tomatillo), my ti
 
 ## Todo
 
-+ Android theme color (for switching activities)
-
-+ Test on device; waiting on a USB-C data cable from Amazon
-
-+ Remember timer settings between sessions
-
 + Build a native version
 
-+ Add an app icon
+    + Remember timer settings between sessions
 
-+ Webview offline
+    + Change theme color according to work/break transitions
+
+    + Notifications/persistent notification to indicate state
 
 + Handle screen rotation
 
